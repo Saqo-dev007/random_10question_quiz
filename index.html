@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="quiz-container">
+        <h1>General Knowledge Quiz</h1>
+
+        <form id="quiz-form">
+            <!-- Question Template -->
+            <div class="question">
+                <p>What is the hardest natural substance?</p>
+                <label><input name="q1" type="radio" value="Diamond" /> Diamond</label>
+                <label><input name="q1" type="radio" value="Gold" /> Gold</label>
+                <label><input name="q1" type="radio" value="Iron" /> Iron</label>
+                <label><input name="q1" type="radio" value="Quartz" /> Quartz</label>
+            </div>
+            <div class="question">
+                <p>Who wrote 'Hamlet'?</p>
+                <label><input name="q2" type="radio" value="Shakespeare" /> Shakespeare</label>
+                <label><input name="q2" type="radio" value="Hemingway" /> Hemingway</label>
+                <label><input name="q2" type="radio" value="Tolstoy" /> Tolstoy</label>
+                <label><input name="q2" type="radio" value="Austen" /> Austen</label>
+            </div>
+            <div class="question">
+                <p>What is the largest mammal?</p>
+                <label><input name="q3" type="radio" value="Blue" /> Blue Whale</label>
+                <label><input name="q3" type="radio" value="Elephant" /> Elephant</label>
+                <label><input name="q3" type="radio" value="Giraffe" /> Giraffe</label>
+                <label><input name="q3" type="radio" value="Hippopotamus" /> Hippopotamus</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q4" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q4" type="radio" value="London" /> London</label>
+                <label><input name="q4" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q4" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>Which planet is known as the Red Planet?</p>
+                <label><input name="q5" type="radio" value="Mars" /> Mars</label>
+                <label><input name="q5" type="radio" value="Venus" /> Venus</label>
+                <label><input name="q5" type="radio" value="Jupiter" /> Jupiter</label>
+                <label><input name="q5" type="radio" value="Saturn" /> Saturn</label>
+            </div>
+            <div class="question">
+                <p>What is the hardest natural substance?</p>
+                <label><input name="q6" type="radio" value="Diamond" /> Diamond</label>
+                <label><input name="q6" type="radio" value="Gold" /> Gold</label>
+                <label><input name="q6" type="radio" value="Iron" /> Iron</label>
+                <label><input name="q6" type="radio" value="Quartz" /> Quartz</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q7" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q7" type="radio" value="London" /> London</label>
+                <label><input name="q7" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q7" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>What language has the most native speakers?</p>
+                <label><input name="q8" type="radio" value="Mandarin" /> Mandarin</label>
+                <label><input name="q8" type="radio" value="English" /> English</label>
+                <label><input name="q8" type="radio" value="Spanish" /> Spanish</label>
+                <label><input name="q8" type="radio" value="Hindi" /> Hindi</label>
+            </div>
+            <div class="question">
+                <p>In which year did the Titanic sink?</p>
+                <label><input name="q9" type="radio" value="1912" /> 1912</label>
+                <label><input name="q9" type="radio" value="1918" /> 1918</label>
+                <label><input name="q9" type="radio" value="1905" /> 1905</label>
+                <label><input name="q9" type="radio" value="1899" /> 1899</label>
+            </div>
+            <div class="question">
+                <p>What is the largest mammal?</p>
+                <label><input name="q10" type="radio" value="Blue" /> Blue Whale</label>
+                <label><input name="q10" type="radio" value="Elephant" /> Elephant</label>
+                <label><input name="q10" type="radio" value="Giraffe" /> Giraffe</label>
+                <label><input name="q10" type="radio" value="Hippopotamus" /> Hippopotamus</label>
+            </div>
+            <div class="question">
+                <p>What language has the most native speakers?</p>
+                <label><input name="q11" type="radio" value="Mandarin" /> Mandarin</label>
+                <label><input name="q11" type="radio" value="English" /> English</label>
+                <label><input name="q11" type="radio" value="Spanish" /> Spanish</label>
+                <label><input name="q11" type="radio" value="Hindi" /> Hindi</label>
+            </div>
+            <div class="question">
+                <p>In which year did the Titanic sink?</p>
+                <label><input name="q12" type="radio" value="1912" /> 1912</label>
+                <label><input name="q12" type="radio" value="1918" /> 1918</label>
+                <label><input name="q12" type="radio" value="1905" /> 1905</label>
+                <label><input name="q12" type="radio" value="1899" /> 1899</label>
+            </div>
+            <div class="question">
+                <p>Which organ pumps blood through the body?</p>
+                <label><input name="q13" type="radio" value="Heart" /> Heart</label>
+                <label><input name="q13" type="radio" value="Liver" /> Liver</label>
+                <label><input name="q13" type="radio" value="Lungs" /> Lungs</label>
+                <label><input name="q13" type="radio" value="Brain" /> Brain</label>
+            </div>
+            <div class="question">
+                <p>What is the largest mammal?</p>
+                <label><input name="q14" type="radio" value="Blue" /> Blue Whale</label>
+                <label><input name="q14" type="radio" value="Elephant" /> Elephant</label>
+                <label><input name="q14" type="radio" value="Giraffe" /> Giraffe</label>
+                <label><input name="q14" type="radio" value="Hippopotamus" /> Hippopotamus</label>
+            </div>
+            <div class="question">
+                <p>Which planet is known as the Red Planet?</p>
+                <label><input name="q15" type="radio" value="Mars" /> Mars</label>
+                <label><input name="q15" type="radio" value="Venus" /> Venus</label>
+                <label><input name="q15" type="radio" value="Jupiter" /> Jupiter</label>
+                <label><input name="q15" type="radio" value="Saturn" /> Saturn</label>
+            </div>
+            <div class="question">
+                <p>What is the largest mammal?</p>
+                <label><input name="q16" type="radio" value="Blue" /> Blue Whale</label>
+                <label><input name="q16" type="radio" value="Elephant" /> Elephant</label>
+                <label><input name="q16" type="radio" value="Giraffe" /> Giraffe</label>
+                <label><input name="q16" type="radio" value="Hippopotamus" /> Hippopotamus</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q17" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q17" type="radio" value="London" /> London</label>
+                <label><input name="q17" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q17" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q18" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q18" type="radio" value="London" /> London</label>
+                <label><input name="q18" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q18" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>Which planet is known as the Red Planet?</p>
+                <label><input name="q19" type="radio" value="Mars" /> Mars</label>
+                <label><input name="q19" type="radio" value="Venus" /> Venus</label>
+                <label><input name="q19" type="radio" value="Jupiter" /> Jupiter</label>
+                <label><input name="q19" type="radio" value="Saturn" /> Saturn</label>
+            </div>
+            <div class="question">
+                <p>What is the chemical symbol for water?</p>
+                <label><input name="q20" type="radio" value="H2O" /> H2O</label>
+                <label><input name="q20" type="radio" value="O2" /> O2</label>
+                <label><input name="q20" type="radio" value="CO2" /> CO2</label>
+                <label><input name="q20" type="radio" value="NaCl" /> NaCl</label>
+            </div>
+            <div class="question">
+                <p>In which year did the Titanic sink?</p>
+                <label><input name="q21" type="radio" value="1912" /> 1912</label>
+                <label><input name="q21" type="radio" value="1918" /> 1918</label>
+                <label><input name="q21" type="radio" value="1905" /> 1905</label>
+                <label><input name="q21" type="radio" value="1899" /> 1899</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q22" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q22" type="radio" value="London" /> London</label>
+                <label><input name="q22" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q22" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q23" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q23" type="radio" value="London" /> London</label>
+                <label><input name="q23" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q23" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>Which planet is known as the Red Planet?</p>
+                <label><input name="q24" type="radio" value="Mars" /> Mars</label>
+                <label><input name="q24" type="radio" value="Venus" /> Venus</label>
+                <label><input name="q24" type="radio" value="Jupiter" /> Jupiter</label>
+                <label><input name="q24" type="radio" value="Saturn" /> Saturn</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q25" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q25" type="radio" value="London" /> London</label>
+                <label><input name="q25" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q25" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>Which planet is known as the Red Planet?</p>
+                <label><input name="q26" type="radio" value="Mars" /> Mars</label>
+                <label><input name="q26" type="radio" value="Venus" /> Venus</label>
+                <label><input name="q26" type="radio" value="Jupiter" /> Jupiter</label>
+                <label><input name="q26" type="radio" value="Saturn" /> Saturn</label>
+            </div>
+            <div class="question">
+                <p>How many continents are there?</p>
+                <label><input name="q27" type="radio" value="7" /> 7</label>
+                <label><input name="q27" type="radio" value="5" /> 5</label>
+                <label><input name="q27" type="radio" value="6" /> 6</label>
+                <label><input name="q27" type="radio" value="8" /> 8</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q28" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q28" type="radio" value="London" /> London</label>
+                <label><input name="q28" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q28" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>How many continents are there?</p>
+                <label><input name="q29" type="radio" value="7" /> 7</label>
+                <label><input name="q29" type="radio" value="5" /> 5</label>
+                <label><input name="q29" type="radio" value="6" /> 6</label>
+                <label><input name="q29" type="radio" value="8" /> 8</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q30" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q30" type="radio" value="London" /> London</label>
+                <label><input name="q30" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q30" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q31" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q31" type="radio" value="London" /> London</label>
+                <label><input name="q31" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q31" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>Who wrote 'Hamlet'?</p>
+                <label><input name="q32" type="radio" value="Shakespeare" /> Shakespeare</label>
+                <label><input name="q32" type="radio" value="Hemingway" /> Hemingway</label>
+                <label><input name="q32" type="radio" value="Tolstoy" /> Tolstoy</label>
+                <label><input name="q32" type="radio" value="Austen" /> Austen</label>
+            </div>
+            <div class="question">
+                <p>What is the hardest natural substance?</p>
+                <label><input name="q33" type="radio" value="Diamond" /> Diamond</label>
+                <label><input name="q33" type="radio" value="Gold" /> Gold</label>
+                <label><input name="q33" type="radio" value="Iron" /> Iron</label>
+                <label><input name="q33" type="radio" value="Quartz" /> Quartz</label>
+            </div>
+            <div class="question">
+                <p>What is the largest mammal?</p>
+                <label><input name="q34" type="radio" value="Blue" /> Blue Whale</label>
+                <label><input name="q34" type="radio" value="Elephant" /> Elephant</label>
+                <label><input name="q34" type="radio" value="Giraffe" /> Giraffe</label>
+                <label><input name="q34" type="radio" value="Hippopotamus" /> Hippopotamus</label>
+            </div>
+            <div class="question">
+                <p>Which planet is known as the Red Planet?</p>
+                <label><input name="q35" type="radio" value="Mars" /> Mars</label>
+                <label><input name="q35" type="radio" value="Venus" /> Venus</label>
+                <label><input name="q35" type="radio" value="Jupiter" /> Jupiter</label>
+                <label><input name="q35" type="radio" value="Saturn" /> Saturn</label>
+            </div>
+            <div class="question">
+                <p>What is the chemical symbol for water?</p>
+                <label><input name="q36" type="radio" value="H2O" /> H2O</label>
+                <label><input name="q36" type="radio" value="O2" /> O2</label>
+                <label><input name="q36" type="radio" value="CO2" /> CO2</label>
+                <label><input name="q36" type="radio" value="NaCl" /> NaCl</label>
+            </div>
+            <div class="question">
+                <p>In which year did the Titanic sink?</p>
+                <label><input name="q37" type="radio" value="1912" /> 1912</label>
+                <label><input name="q37" type="radio" value="1918" /> 1918</label>
+                <label><input name="q37" type="radio" value="1905" /> 1905</label>
+                <label><input name="q37" type="radio" value="1899" /> 1899</label>
+            </div>
+            <div class="question">
+                <p>What language has the most native speakers?</p>
+                <label><input name="q38" type="radio" value="Mandarin" /> Mandarin</label>
+                <label><input name="q38" type="radio" value="English" /> English</label>
+                <label><input name="q38" type="radio" value="Spanish" /> Spanish</label>
+                <label><input name="q38" type="radio" value="Hindi" /> Hindi</label>
+            </div>
+            <div class="question">
+                <p>What is the largest mammal?</p>
+                <label><input name="q39" type="radio" value="Blue" /> Blue Whale</label>
+                <label><input name="q39" type="radio" value="Elephant" /> Elephant</label>
+                <label><input name="q39" type="radio" value="Giraffe" /> Giraffe</label>
+                <label><input name="q39" type="radio" value="Hippopotamus" /> Hippopotamus</label>
+            </div>
+            <div class="question">
+                <p>In which year did the Titanic sink?</p>
+                <label><input name="q40" type="radio" value="1912" /> 1912</label>
+                <label><input name="q40" type="radio" value="1918" /> 1918</label>
+                <label><input name="q40" type="radio" value="1905" /> 1905</label>
+                <label><input name="q40" type="radio" value="1899" /> 1899</label>
+            </div>
+            <div class="question">
+                <p>What is the largest mammal?</p>
+                <label><input name="q41" type="radio" value="Blue" /> Blue Whale</label>
+                <label><input name="q41" type="radio" value="Elephant" /> Elephant</label>
+                <label><input name="q41" type="radio" value="Giraffe" /> Giraffe</label>
+                <label><input name="q41" type="radio" value="Hippopotamus" /> Hippopotamus</label>
+            </div>
+            <div class="question">
+                <p>How many continents are there?</p>
+                <label><input name="q42" type="radio" value="7" /> 7</label>
+                <label><input name="q42" type="radio" value="5" /> 5</label>
+                <label><input name="q42" type="radio" value="6" /> 6</label>
+                <label><input name="q42" type="radio" value="8" /> 8</label>
+            </div>
+            <div class="question">
+                <p>Which planet is known as the Red Planet?</p>
+                <label><input name="q43" type="radio" value="Mars" /> Mars</label>
+                <label><input name="q43" type="radio" value="Venus" /> Venus</label>
+                <label><input name="q43" type="radio" value="Jupiter" /> Jupiter</label>
+                <label><input name="q43" type="radio" value="Saturn" /> Saturn</label>
+            </div>
+            <div class="question">
+                <p>What is the hardest natural substance?</p>
+                <label><input name="q44" type="radio" value="Diamond" /> Diamond</label>
+                <label><input name="q44" type="radio" value="Gold" /> Gold</label>
+                <label><input name="q44" type="radio" value="Iron" /> Iron</label>
+                <label><input name="q44" type="radio" value="Quartz" /> Quartz</label>
+            </div>
+            <div class="question">
+                <p>Which organ pumps blood through the body?</p>
+                <label><input name="q45" type="radio" value="Heart" /> Heart</label>
+                <label><input name="q45" type="radio" value="Liver" /> Liver</label>
+                <label><input name="q45" type="radio" value="Lungs" /> Lungs</label>
+                <label><input name="q45" type="radio" value="Brain" /> Brain</label>
+            </div>
+            <div class="question">
+                <p>Which organ pumps blood through the body?</p>
+                <label><input name="q46" type="radio" value="Heart" /> Heart</label>
+                <label><input name="q46" type="radio" value="Liver" /> Liver</label>
+                <label><input name="q46" type="radio" value="Lungs" /> Lungs</label>
+                <label><input name="q46" type="radio" value="Brain" /> Brain</label>
+            </div>
+            <div class="question">
+                <p>What is the largest mammal?</p>
+                <label><input name="q47" type="radio" value="Blue" /> Blue Whale</label>
+                <label><input name="q47" type="radio" value="Elephant" /> Elephant</label>
+                <label><input name="q47" type="radio" value="Giraffe" /> Giraffe</label>
+                <label><input name="q47" type="radio" value="Hippopotamus" /> Hippopotamus</label>
+            </div>
+            <div class="question">
+                <p>Which planet is known as the Red Planet?</p>
+                <label><input name="q48" type="radio" value="Mars" /> Mars</label>
+                <label><input name="q48" type="radio" value="Venus" /> Venus</label>
+                <label><input name="q48" type="radio" value="Jupiter" /> Jupiter</label>
+                <label><input name="q48" type="radio" value="Saturn" /> Saturn</label>
+            </div>
+            <div class="question">
+                <p>Who wrote 'Hamlet'?</p>
+                <label><input name="q49" type="radio" value="Shakespeare" /> Shakespeare</label>
+                <label><input name="q49" type="radio" value="Hemingway" /> Hemingway</label>
+                <label><input name="q49" type="radio" value="Tolstoy" /> Tolstoy</label>
+                <label><input name="q49" type="radio" value="Austen" /> Austen</label>
+            </div>
+            <div class="question">
+                <p>Who wrote 'Hamlet'?</p>
+                <label><input name="q50" type="radio" value="Shakespeare" /> Shakespeare</label>
+                <label><input name="q50" type="radio" value="Hemingway" /> Hemingway</label>
+                <label><input name="q50" type="radio" value="Tolstoy" /> Tolstoy</label>
+                <label><input name="q50" type="radio" value="Austen" /> Austen</label>
+            </div>
+            <div class="question">
+                <p>How many continents are there?</p>
+                <label><input name="q51" type="radio" value="7" /> 7</label>
+                <label><input name="q51" type="radio" value="5" /> 5</label>
+                <label><input name="q51" type="radio" value="6" /> 6</label>
+                <label><input name="q51" type="radio" value="8" /> 8</label>
+            </div>
+            <div class="question">
+                <p>Which organ pumps blood through the body?</p>
+                <label><input name="q52" type="radio" value="Heart" /> Heart</label>
+                <label><input name="q52" type="radio" value="Liver" /> Liver</label>
+                <label><input name="q52" type="radio" value="Lungs" /> Lungs</label>
+                <label><input name="q52" type="radio" value="Brain" /> Brain</label>
+            </div>
+            <div class="question">
+                <p>What is the hardest natural substance?</p>
+                <label><input name="q53" type="radio" value="Diamond" /> Diamond</label>
+                <label><input name="q53" type="radio" value="Gold" /> Gold</label>
+                <label><input name="q53" type="radio" value="Iron" /> Iron</label>
+                <label><input name="q53" type="radio" value="Quartz" /> Quartz</label>
+            </div>
+            <div class="question">
+                <p>Which organ pumps blood through the body?</p>
+                <label><input name="q54" type="radio" value="Heart" /> Heart</label>
+                <label><input name="q54" type="radio" value="Liver" /> Liver</label>
+                <label><input name="q54" type="radio" value="Lungs" /> Lungs</label>
+                <label><input name="q54" type="radio" value="Brain" /> Brain</label>
+            </div>
+            <div class="question">
+                <p>What is the chemical symbol for water?</p>
+                <label><input name="q55" type="radio" value="H2O" /> H2O</label>
+                <label><input name="q55" type="radio" value="O2" /> O2</label>
+                <label><input name="q55" type="radio" value="CO2" /> CO2</label>
+                <label><input name="q55" type="radio" value="NaCl" /> NaCl</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q56" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q56" type="radio" value="London" /> London</label>
+                <label><input name="q56" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q56" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>What language has the most native speakers?</p>
+                <label><input name="q57" type="radio" value="Mandarin" /> Mandarin</label>
+                <label><input name="q57" type="radio" value="English" /> English</label>
+                <label><input name="q57" type="radio" value="Spanish" /> Spanish</label>
+                <label><input name="q57" type="radio" value="Hindi" /> Hindi</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q58" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q58" type="radio" value="London" /> London</label>
+                <label><input name="q58" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q58" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>What is the hardest natural substance?</p>
+                <label><input name="q59" type="radio" value="Diamond" /> Diamond</label>
+                <label><input name="q59" type="radio" value="Gold" /> Gold</label>
+                <label><input name="q59" type="radio" value="Iron" /> Iron</label>
+                <label><input name="q59" type="radio" value="Quartz" /> Quartz</label>
+            </div>
+            <div class="question">
+                <p>What is the largest mammal?</p>
+                <label><input name="q60" type="radio" value="Blue" /> Blue Whale</label>
+                <label><input name="q60" type="radio" value="Elephant" /> Elephant</label>
+                <label><input name="q60" type="radio" value="Giraffe" /> Giraffe</label>
+                <label><input name="q60" type="radio" value="Hippopotamus" /> Hippopotamus</label>
+            </div>
+            <div class="question">
+                <p>Who wrote 'Hamlet'?</p>
+                <label><input name="q61" type="radio" value="Shakespeare" /> Shakespeare</label>
+                <label><input name="q61" type="radio" value="Hemingway" /> Hemingway</label>
+                <label><input name="q61" type="radio" value="Tolstoy" /> Tolstoy</label>
+                <label><input name="q61" type="radio" value="Austen" /> Austen</label>
+            </div>
+            <div class="question">
+                <p>What language has the most native speakers?</p>
+                <label><input name="q62" type="radio" value="Mandarin" /> Mandarin</label>
+                <label><input name="q62" type="radio" value="English" /> English</label>
+                <label><input name="q62" type="radio" value="Spanish" /> Spanish</label>
+                <label><input name="q62" type="radio" value="Hindi" /> Hindi</label>
+            </div>
+            <div class="question">
+                <p>What is the chemical symbol for water?</p>
+                <label><input name="q63" type="radio" value="H2O" /> H2O</label>
+                <label><input name="q63" type="radio" value="O2" /> O2</label>
+                <label><input name="q63" type="radio" value="CO2" /> CO2</label>
+                <label><input name="q63" type="radio" value="NaCl" /> NaCl</label>
+            </div>
+            <div class="question">
+                <p>Who wrote 'Hamlet'?</p>
+                <label><input name="q64" type="radio" value="Shakespeare" /> Shakespeare</label>
+                <label><input name="q64" type="radio" value="Hemingway" /> Hemingway</label>
+                <label><input name="q64" type="radio" value="Tolstoy" /> Tolstoy</label>
+                <label><input name="q64" type="radio" value="Austen" /> Austen</label>
+            </div>
+            <div class="question">
+                <p>Which planet is known as the Red Planet?</p>
+                <label><input name="q65" type="radio" value="Mars" /> Mars</label>
+                <label><input name="q65" type="radio" value="Venus" /> Venus</label>
+                <label><input name="q65" type="radio" value="Jupiter" /> Jupiter</label>
+                <label><input name="q65" type="radio" value="Saturn" /> Saturn</label>
+            </div>
+            <div class="question">
+                <p>Who wrote 'Hamlet'?</p>
+                <label><input name="q66" type="radio" value="Shakespeare" /> Shakespeare</label>
+                <label><input name="q66" type="radio" value="Hemingway" /> Hemingway</label>
+                <label><input name="q66" type="radio" value="Tolstoy" /> Tolstoy</label>
+                <label><input name="q66" type="radio" value="Austen" /> Austen</label>
+            </div>
+            <div class="question">
+                <p>Who wrote 'Hamlet'?</p>
+                <label><input name="q67" type="radio" value="Shakespeare" /> Shakespeare</label>
+                <label><input name="q67" type="radio" value="Hemingway" /> Hemingway</label>
+                <label><input name="q67" type="radio" value="Tolstoy" /> Tolstoy</label>
+                <label><input name="q67" type="radio" value="Austen" /> Austen</label>
+            </div>
+            <div class="question">
+                <p>Which organ pumps blood through the body?</p>
+                <label><input name="q68" type="radio" value="Heart" /> Heart</label>
+                <label><input name="q68" type="radio" value="Liver" /> Liver</label>
+                <label><input name="q68" type="radio" value="Lungs" /> Lungs</label>
+                <label><input name="q68" type="radio" value="Brain" /> Brain</label>
+            </div>
+            <div class="question">
+                <p>What is the chemical symbol for water?</p>
+                <label><input name="q69" type="radio" value="H2O" /> H2O</label>
+                <label><input name="q69" type="radio" value="O2" /> O2</label>
+                <label><input name="q69" type="radio" value="CO2" /> CO2</label>
+                <label><input name="q69" type="radio" value="NaCl" /> NaCl</label>
+            </div>
+            <div class="question">
+                <p>What is the chemical symbol for water?</p>
+                <label><input name="q70" type="radio" value="H2O" /> H2O</label>
+                <label><input name="q70" type="radio" value="O2" /> O2</label>
+                <label><input name="q70" type="radio" value="CO2" /> CO2</label>
+                <label><input name="q70" type="radio" value="NaCl" /> NaCl</label>
+            </div>
+            <div class="question">
+                <p>What is the chemical symbol for water?</p>
+                <label><input name="q71" type="radio" value="H2O" /> H2O</label>
+                <label><input name="q71" type="radio" value="O2" /> O2</label>
+                <label><input name="q71" type="radio" value="CO2" /> CO2</label>
+                <label><input name="q71" type="radio" value="NaCl" /> NaCl</label>
+            </div>
+            <div class="question">
+                <p>What is the chemical symbol for water?</p>
+                <label><input name="q72" type="radio" value="H2O" /> H2O</label>
+                <label><input name="q72" type="radio" value="O2" /> O2</label>
+                <label><input name="q72" type="radio" value="CO2" /> CO2</label>
+                <label><input name="q72" type="radio" value="NaCl" /> NaCl</label>
+            </div>
+            <div class="question">
+                <p>Who wrote 'Hamlet'?</p>
+                <label><input name="q73" type="radio" value="Shakespeare" /> Shakespeare</label>
+                <label><input name="q73" type="radio" value="Hemingway" /> Hemingway</label>
+                <label><input name="q73" type="radio" value="Tolstoy" /> Tolstoy</label>
+                <label><input name="q73" type="radio" value="Austen" /> Austen</label>
+            </div>
+            <div class="question">
+                <p>What is the chemical symbol for water?</p>
+                <label><input name="q74" type="radio" value="H2O" /> H2O</label>
+                <label><input name="q74" type="radio" value="O2" /> O2</label>
+                <label><input name="q74" type="radio" value="CO2" /> CO2</label>
+                <label><input name="q74" type="radio" value="NaCl" /> NaCl</label>
+            </div>
+            <div class="question">
+                <p>What is the chemical symbol for water?</p>
+                <label><input name="q75" type="radio" value="H2O" /> H2O</label>
+                <label><input name="q75" type="radio" value="O2" /> O2</label>
+                <label><input name="q75" type="radio" value="CO2" /> CO2</label>
+                <label><input name="q75" type="radio" value="NaCl" /> NaCl</label>
+            </div>
+            <div class="question">
+                <p>In which year did the Titanic sink?</p>
+                <label><input name="q76" type="radio" value="1912" /> 1912</label>
+                <label><input name="q76" type="radio" value="1918" /> 1918</label>
+                <label><input name="q76" type="radio" value="1905" /> 1905</label>
+                <label><input name="q76" type="radio" value="1899" /> 1899</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q77" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q77" type="radio" value="London" /> London</label>
+                <label><input name="q77" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q77" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q78" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q78" type="radio" value="London" /> London</label>
+                <label><input name="q78" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q78" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q79" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q79" type="radio" value="London" /> London</label>
+                <label><input name="q79" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q79" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>How many continents are there?</p>
+                <label><input name="q80" type="radio" value="7" /> 7</label>
+                <label><input name="q80" type="radio" value="5" /> 5</label>
+                <label><input name="q80" type="radio" value="6" /> 6</label>
+                <label><input name="q80" type="radio" value="8" /> 8</label>
+            </div>
+            <div class="question">
+                <p>Which planet is known as the Red Planet?</p>
+                <label><input name="q81" type="radio" value="Mars" /> Mars</label>
+                <label><input name="q81" type="radio" value="Venus" /> Venus</label>
+                <label><input name="q81" type="radio" value="Jupiter" /> Jupiter</label>
+                <label><input name="q81" type="radio" value="Saturn" /> Saturn</label>
+            </div>
+            <div class="question">
+                <p>How many continents are there?</p>
+                <label><input name="q82" type="radio" value="7" /> 7</label>
+                <label><input name="q82" type="radio" value="5" /> 5</label>
+                <label><input name="q82" type="radio" value="6" /> 6</label>
+                <label><input name="q82" type="radio" value="8" /> 8</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q83" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q83" type="radio" value="London" /> London</label>
+                <label><input name="q83" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q83" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>In which year did the Titanic sink?</p>
+                <label><input name="q84" type="radio" value="1912" /> 1912</label>
+                <label><input name="q84" type="radio" value="1918" /> 1918</label>
+                <label><input name="q84" type="radio" value="1905" /> 1905</label>
+                <label><input name="q84" type="radio" value="1899" /> 1899</label>
+            </div>
+            <div class="question">
+                <p>How many continents are there?</p>
+                <label><input name="q85" type="radio" value="7" /> 7</label>
+                <label><input name="q85" type="radio" value="5" /> 5</label>
+                <label><input name="q85" type="radio" value="6" /> 6</label>
+                <label><input name="q85" type="radio" value="8" /> 8</label>
+            </div>
+            <div class="question">
+                <p>What is the largest mammal?</p>
+                <label><input name="q86" type="radio" value="Blue" /> Blue Whale</label>
+                <label><input name="q86" type="radio" value="Elephant" /> Elephant</label>
+                <label><input name="q86" type="radio" value="Giraffe" /> Giraffe</label>
+                <label><input name="q86" type="radio" value="Hippopotamus" /> Hippopotamus</label>
+            </div>
+            <div class="question">
+                <p>What is the hardest natural substance?</p>
+                <label><input name="q87" type="radio" value="Diamond" /> Diamond</label>
+                <label><input name="q87" type="radio" value="Gold" /> Gold</label>
+                <label><input name="q87" type="radio" value="Iron" /> Iron</label>
+                <label><input name="q87" type="radio" value="Quartz" /> Quartz</label>
+            </div>
+            <div class="question">
+                <p>What is the chemical symbol for water?</p>
+                <label><input name="q88" type="radio" value="H2O" /> H2O</label>
+                <label><input name="q88" type="radio" value="O2" /> O2</label>
+                <label><input name="q88" type="radio" value="CO2" /> CO2</label>
+                <label><input name="q88" type="radio" value="NaCl" /> NaCl</label>
+            </div>
+            <div class="question">
+                <p>What is the chemical symbol for water?</p>
+                <label><input name="q89" type="radio" value="H2O" /> H2O</label>
+                <label><input name="q89" type="radio" value="O2" /> O2</label>
+                <label><input name="q89" type="radio" value="CO2" /> CO2</label>
+                <label><input name="q89" type="radio" value="NaCl" /> NaCl</label>
+            </div>
+            <div class="question">
+                <p>What is the hardest natural substance?</p>
+                <label><input name="q90" type="radio" value="Diamond" /> Diamond</label>
+                <label><input name="q90" type="radio" value="Gold" /> Gold</label>
+                <label><input name="q90" type="radio" value="Iron" /> Iron</label>
+                <label><input name="q90" type="radio" value="Quartz" /> Quartz</label>
+            </div>
+            <div class="question">
+                <p>Which planet is known as the Red Planet?</p>
+                <label><input name="q91" type="radio" value="Mars" /> Mars</label>
+                <label><input name="q91" type="radio" value="Venus" /> Venus</label>
+                <label><input name="q91" type="radio" value="Jupiter" /> Jupiter</label>
+                <label><input name="q91" type="radio" value="Saturn" /> Saturn</label>
+            </div>
+            <div class="question">
+                <p>What is the hardest natural substance?</p>
+                <label><input name="q92" type="radio" value="Diamond" /> Diamond</label>
+                <label><input name="q92" type="radio" value="Gold" /> Gold</label>
+                <label><input name="q92" type="radio" value="Iron" /> Iron</label>
+                <label><input name="q92" type="radio" value="Quartz" /> Quartz</label>
+            </div>
+            <div class="question">
+                <p>Which planet is known as the Red Planet?</p>
+                <label><input name="q93" type="radio" value="Mars" /> Mars</label>
+                <label><input name="q93" type="radio" value="Venus" /> Venus</label>
+                <label><input name="q93" type="radio" value="Jupiter" /> Jupiter</label>
+                <label><input name="q93" type="radio" value="Saturn" /> Saturn</label>
+            </div>
+            <div class="question">
+                <p>What is the hardest natural substance?</p>
+                <label><input name="q94" type="radio" value="Diamond" /> Diamond</label>
+                <label><input name="q94" type="radio" value="Gold" /> Gold</label>
+                <label><input name="q94" type="radio" value="Iron" /> Iron</label>
+                <label><input name="q94" type="radio" value="Quartz" /> Quartz</label>
+            </div>
+            <div class="question">
+                <p>What is the hardest natural substance?</p>
+                <label><input name="q95" type="radio" value="Diamond" /> Diamond</label>
+                <label><input name="q95" type="radio" value="Gold" /> Gold</label>
+                <label><input name="q95" type="radio" value="Iron" /> Iron</label>
+                <label><input name="q95" type="radio" value="Quartz" /> Quartz</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q96" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q96" type="radio" value="London" /> London</label>
+                <label><input name="q96" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q96" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>What is the largest mammal?</p>
+                <label><input name="q97" type="radio" value="Blue" /> Blue Whale</label>
+                <label><input name="q97" type="radio" value="Elephant" /> Elephant</label>
+                <label><input name="q97" type="radio" value="Giraffe" /> Giraffe</label>
+                <label><input name="q97" type="radio" value="Hippopotamus" /> Hippopotamus</label>
+            </div>
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label><input name="q98" type="radio" value="Paris" /> Paris</label>
+                <label><input name="q98" type="radio" value="London" /> London</label>
+                <label><input name="q98" type="radio" value="Berlin" /> Berlin</label>
+                <label><input name="q98" type="radio" value="Madrid" /> Madrid</label>
+            </div>
+            <div class="question">
+                <p>How many continents are there?</p>
+                <label><input name="q99" type="radio" value="7" /> 7</label>
+                <label><input name="q99" type="radio" value="5" /> 5</label>
+                <label><input name="q99" type="radio" value="6" /> 6</label>
+                <label><input name="q99" type="radio" value="8" /> 8</label>
+            </div>
+            <div class="question">
+                <p>How many continents are there?</p>
+                <label><input name="q100" type="radio" value="7" /> 7</label>
+                <label><input name="q100" type="radio" value="5" /> 5</label>
+                <label><input name="q100" type="radio" value="6" /> 6</label>
+                <label><input name="q100" type="radio" value="8" /> 8</label>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
